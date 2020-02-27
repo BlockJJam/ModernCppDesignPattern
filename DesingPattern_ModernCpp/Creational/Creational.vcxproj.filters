@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Preliminaries">
+      <UniqueIdentifier>{ad403065-0371-4471-949d-599dc2e2c2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder">
+      <UniqueIdentifier>{015378dd-a104-4729-bf22-cc6a9aa243b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder\Facets">
+      <UniqueIdentifier>{11d12033-c4d7-4d42-b771-df6e19be9a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{8f89a444-dc1f-4862-b524-0e05a262c468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\AbstractFactory">
+      <UniqueIdentifier>{1a95941d-c776-436c-a045-28c73b9cf7f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SRP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="OCP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="LSP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="ISP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="DIP.cpp">
+      <Filter>Preliminaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="BuilderCodingExercise.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="GroovyStyle.cpp">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Facets.cpp">
+      <Filter>Builder\Facets</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Builder\Facets</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonBuilder.cpp">
+      <Filter>Builder\Facets</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="InnerFactory.cpp">
+      <Filter>Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory.cpp">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonAddressBuilder.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonJobBuilder.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonBuilder.h">
+      <Filter>Builder\Facets</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffeeFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDrink.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDrinkFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="TeaFactory.h">
+      <Filter>Factory\AbstractFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
